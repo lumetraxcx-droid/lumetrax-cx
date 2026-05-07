@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LumeTraxCX - Student Internet Access</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0a0f1d;
+        color: white;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 18px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 70px 20px 30px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        color: #cbd5e1;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #1d4ed8;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .card {
+        background: #141c2f;
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        color: #60a5fa;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 8px;
+        background: #2563eb;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background: #1d4ed8;
+    }
+
+    ul {
+        line-height: 1.7;
+        color: #d1d5db;
+    }
+
+    .pricing {
+        display: grid;
+        gap: 10px;
+    }
+
+    .price {
+        background: #0f172a;
+        padding: 12px;
+        border-radius: 8px;
+        border-left: 4px solid #2563eb;
+    }
+
+    .warning {
+        color: #fbbf24;
+        font-size: 14px;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 40px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+        <h1>⚡ LumeTraxCX</h1>
+        <p>High-Speed Internet Built for AAU & Umma Students</p>
+        <div class="badge">Early Access Testing Phase</div>
+    </div>
+
+    <!-- EMAIL CAPTURE -->
+    <div class="card">
+        <h2>🚀 Join Early Access List</h2>
+        <p>
+            We are building a fast, stable Wi-Fi network for students tired of expensive and unreliable mobile data.
+        </p>
+
+        <p class="warning">
+            ✔ Selected users get early access<br>
+            ✔ Discounted launch pricing<br>
+            ✔ Priority connection in their hostel area
+        </p>
+
+        <form action="https://formspree.io/f/mgodzbjg" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="location" placeholder="Hostel / Area (AAU / Umma)" required>
+
+            <button type="submit">Get Early Access</button>
+        </form>
+    </div>
+
+    <!-- PROBLEM -->
+    <div class="card">
+        <h2>📡 The Problem</h2>
+        <ul>
+            <li>Mobile data is too expensive</li>
+            <li>Weak signal in hostels</li>
+            <li>Data finishes too fast</li>
+            <li>Unstable browsing & streaming</li>
+        </ul>
+    </div>
+
+    <!-- SOLUTION -->
+    <div class="card">
+        <h2>⚡ The Solution</h2>
+        <ul>
+            <li>Stable high-speed Wi-Fi zones</li>
+            <li>Built for student-heavy areas</li>
+            <li>Affordable daily & weekly plans</li>
+            <li>Consistent performance (no fluctuations)</li>
+        </ul>
+    </div>
+
+    <!-- PRICING -->
+    <div class="card">
+        <h2>💰 Expected Plans</h2>
+
+        <div class="pricing">
+            <div class="price">₦500 — Daily Unlimited Access</div>
+            <div class="price">₦2,000 — Weekly Unlimited Access</div>
+            <div class="price">₦7,000 — Monthly Unlimited Access</div>
+        </div>
+
+        <p class="warning">
+            Early users may receive discounted launch pricing.
+        </p>
+    </div>
+
+    <!-- SCARCITY -->
+    <div class="card">
+        <h2>⚠️ Limited Rollout</h2>
+        <p>
+            We are starting in selected AAU / Umma hostel zones first based on demand.
+            Areas with higher interest will be deployed first.
+        </p>
+    </div>
+
+    <!-- FINAL CTA -->
+    <div class="card">
+        <h2>🎯 Don’t Miss Early Access</h2>
+        <p>
+            Enter your details above to secure priority access when LumeTraxCX launches in your area.
+        </p>
+    </div>
+
+    <div class="footer">
+        © 2026 LumeTraxCX — Built for student connectivity
+    </div>
+
+</div>
+
+</body>
+</html>
